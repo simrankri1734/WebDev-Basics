@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpport" content="with=device-width,initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+    <header>Header</header><hr>
+    <main>
+        <section>Technologys: HTML/CSS </section>
+        <section>Course: OS/DBMS</section>
+        <section>Hobbies: Adventuring</section>
+   </main>
+</body>
+</html>
