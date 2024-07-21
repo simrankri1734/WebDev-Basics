@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo Classes</title>
+    <style>
+        .pseudo {
+            height: 25px;
+            width: 150px;
+            background-color: forestgreen;
+            border: 2px solid black;
+            border-radius: 10px;
+
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s;
+            /*transition: all 1s ease-in-out 0s;(instead of all transition property)*/
+
+        }
+        .pseudo:hover {
+            height: 30px;
+            width: 160px;
+            background-color: lightcoral;
+        }
+        .pseudo:active {
+            height: 30px;
+            width: 160px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <button class="pseudo">Hey Simran</button>
+</body>
+</html>
