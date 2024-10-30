@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice Set 5</title>
+</head>
+<body>
+    <script>
+        // let product = {
+        //     name: 'Jeans',
+        //     size: 'S',
+        //     fit: 'Slim FIt',
+        //     'delivery-time': 'Same day delivery',
+        // };
+        // let copyProduct = product;
+        // console.log(product);
+        // copyProduct.size = 'M';
+        // console.log(product);
+        // copyProduct.fit = 'Regular Fit';
+        // console.log(product);
+        console.log(product['delivery-time']);
+
+        let obj = {
+            message: 'Good Job',
+            status: 'Complete',
+        };
+        console.log(obj);
+        let{message, status} = obj;
+        console.log(message);
+        console.log(status);
+
+        function isIdenticleProducct(product1, product2)
+        {
+            if(product1 == product2){
+            console.warn('Parameter passed was not an object');
+            return false;
+        }
+        if(product1 == product2)
+        {
+            return true;
+        }
+        if(product1.num === product2.name &&
+        product.size === product2.size &&
+        product1.fit === product2.fit) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    let product = {
+            name: 'Jeans',
+            size: 'S',
+            fit: 'Slim FIt',
+            'delivery-time': 'Same day delivery',
+        };
+
+        console.log(isIdenticleProduct(product,''));
+        console.log(isIdenticleProduct(product,product));
+        console.log(isIdenticleProduct(product3,product2));
+        console.log(isIdenticleProduct(product2,product3));
+    </script>
+</body>
+</html>
